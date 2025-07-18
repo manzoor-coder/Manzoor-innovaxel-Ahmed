@@ -5,7 +5,7 @@ import {
   updateShortUrl,
   deleteShortUrl,
   getUrlStats
-} from '../controllers/urlController.js'; // ✅ named import
+} from '../controllers/urlController.js';
 
 const router = express.Router();
 
