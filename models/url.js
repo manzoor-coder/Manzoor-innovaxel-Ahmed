@@ -9,6 +9,5 @@ const urlSchema = new mongoose.Schema({
 });
 
 const Url = mongoose.model('Url', urlSchema);
-export default Url; // ✅ ES Module export
-
+export default Url; //  ES Module export
 
