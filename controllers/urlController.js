@@ -61,7 +61,7 @@ const getUrlStats = async (req, res) => {
   res.status(200).json(urlData);
 };
 
-// ✅ Export all functions individually or as named exports
+// Export all functions individually or as named exports
 export {
   createShortUrl,
   getOriginalUrl,
